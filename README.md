@@ -9,6 +9,14 @@
 Optimize notification icons for ColorOS and adapt to native notification icon specifications.<br/>
 为 ColorOS 优化通知图标以及适配原生通知图标规范，理论支持 OxygenOS 和 RealmeOS。
 
+⚠️ 适配说明<br/>
+
+- 目前仅在 ColorOS 12 for OnePlus 上测试通过，如有问题请提交 `issues`
+- 建议在不低于 ColorOS 11 的版本上使用
+
+Xposed-Modules-Repo 有一定时长的缓存，若最新版本无法下载请前往如下地址下载<br/>
+[Release 发布地址](https://github.com/fankes/ColorOSNotifyIcon/releases)
+
 # 历史背景
 
 继 MIUI 之后的第二大系统 ColorOS 虽然支持原生通知图标，但是第三方推送五颜六色的图标系统并没有做适配，甚至系统自己的图标都是彩色的，极其不友好。<br/>
