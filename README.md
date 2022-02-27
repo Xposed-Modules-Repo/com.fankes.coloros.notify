@@ -1,6 +1,5 @@
 # ColorOS 通知图标增强
 
-![Eclipse Marketplace](https://img.shields.io/badge/build-passing-brightgreen)
 ![Eclipse Marketplace](https://img.shields.io/badge/license-AGPL3.0-blue)
 ![Eclipse Marketplace](https://img.shields.io/badge/version-v1.0-green)
 <br/><br/>
