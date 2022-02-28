@@ -1,12 +1,12 @@
 # ColorOS 通知图标增强
 
 ![Eclipse Marketplace](https://img.shields.io/badge/license-AGPL3.0-blue)
-![Eclipse Marketplace](https://img.shields.io/badge/version-v1.0-green)
+![Eclipse Marketplace](https://img.shields.io/badge/version-v1.1-green)
 <br/><br/>
 <img src="https://github.com/fankes/ColorOSNotifyIcon/blob/master/app/src/main/ic_launcher-playstore.png" width = "100" height = "100"/>
 <br/>
 Optimize notification icons for ColorOS and adapt to native notification icon specifications.<br/>
-为 ColorOS 优化通知图标以及适配原生通知图标规范，理论支持 OxygenOS 和 RealmeOS。
+为 ColorOS 优化通知图标以及适配原生通知图标规范，理论支持 OxygenOS 和 RealmeUI。
 
 ⚠️ 适配说明<br/>
 
