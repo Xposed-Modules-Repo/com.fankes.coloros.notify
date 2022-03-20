@@ -8,7 +8,7 @@
 Optimize notification icons for ColorOS and adapt to native notification icon specifications.<br/>
 为 ColorOS 优化通知图标以及适配原生通知图标规范，理论支持 OxygenOS 和 RealmeUI。
 
-⚠️ 适配说明<br/>
+# 适配说明
 
 - 目前仅在 ColorOS 12 for OnePlus 上测试通过，如有问题请提交 `issues`
 - 建议在不低于 ColorOS 11 的版本上使用
