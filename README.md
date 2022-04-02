@@ -20,3 +20,9 @@ Xposed-Modules-Repo 有一定时长的缓存，若最新版本无法下载请前
 
 继 MIUI 之后的第二大系统 ColorOS 虽然支持原生通知图标，但是第三方推送五颜六色的图标系统并没有做适配，甚至系统自己的图标都是彩色的，极其不友好。<br/>
 而且从 ColorOS 12 开始，原生图标丢失了着色属性，这也是一种对原生 Android 生态的破坏。
+
+# 贡献
+
+本模块使用 [YukiHookAPI](https://github.com/fankes/YukiHookAPI) 构建<br/><br/>
+YukiHookAPI 是一个高效的 Hook API 构建工具，让你的 Xposed 模块开发变得更加简单。<br/><br/>
+版权所有 © 2019-2022 Fankes Studio(qzmmcn@163.com)
