@@ -45,7 +45,7 @@ Optimize notification icons for ColorOS and adapt to native notification icon sp
 
 ## 贡献
 
-本模块使用 [YukiHookAPI](https://github.com/fankes/YukiHookAPI) 构建
+本模块使用 [YukiHookAPI](https://github.com/HighCapable/YukiHookAPI) 构建
 
 YukiHookAPI 是一个使用 Kotlin 重构的高效 Hook API 构建工具，让你的 Xposed 模块开发变得更加简单。
 
