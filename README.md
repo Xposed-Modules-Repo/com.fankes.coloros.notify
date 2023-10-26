@@ -46,6 +46,9 @@ Optimize notification icons for ColorOS and adapt to native notification icon sp
 | <img src="https://cdn-icons-png.flaticon.com/128/1163/1163624.png" width = "30" height = "30" alt="LOGO"/> | [蓝奏云 **(密码：al5u)**](https://fankes.lanzouy.com/b030rvjyf) | 正式版 (稳定版) |
 |------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|-----------|
 
+| <img src="https://static.coolapk.com/static/web/v8/images/header-logo.png" width = "30" height = "30" alt="LOGO"/> | [酷安应用市场](https://www.coolapk.com/apk/com.fankes.coloros.notify) | 正式版 (稳定版) |
+|--------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|-----------|
+
 本模块发布地址仅限于上述所列出的地址，从其他非正规渠道下载到的版本或对您造成任何影响均与我们无关。
 
 ## 项目推广
