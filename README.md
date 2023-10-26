@@ -29,6 +29,25 @@ Optimize notification icons for ColorOS and adapt to native notification icon sp
 
 - 建议在不低于 ColorOS 11 的版本上使用
 
+## 发行渠道
+
+| <img src="https://avatars.githubusercontent.com/in/15368?s=64&v=4" width = "30" height = "30" alt="LOGO"/> | [GitHub CI](https://github.com/fankes/ColorOSNotifyIcon/actions/workflows/commit_ci.yml) | CI 自动构建 (测试版) |
+|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|---------------|
+
+| <img src="https://github.com/peter-iakovlev/Telegram/blob/public/Icon.png?raw=true" width = "30" height = "30" alt="LOGO"/> | [Telegram CI 频道](https://t.me/ColorOSNotifyIcon_CI) | CI 自动构建 (测试版) |
+|-----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|---------------|
+
+| <img src="https://avatars.githubusercontent.com/in/15368?s=64&v=4" width = "30" height = "30" alt="LOGO"/> | [GitHub Releases](https://github.com/fankes/ColorOSNotifyIcon/releases) | 正式版 (稳定版) |
+|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|-----------|
+
+| <img src="https://avatars.githubusercontent.com/u/78217009?s=200&v=4?raw=true" width = "30" height = "30" alt="LOGO"/> | [Xposed-Modules-Repo](https://github.com/Xposed-Modules-Repo/com.fankes.coloros.notify/releases) | 正式版 (稳定版) |
+|------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-----------|
+
+| <img src="https://cdn-icons-png.flaticon.com/128/1163/1163624.png" width = "30" height = "30" alt="LOGO"/> | [蓝奏云 **(密码：al5u)**](https://fankes.lanzouy.com/b030rvjyf) | 正式版 (稳定版) |
+|------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|-----------|
+
+本模块发布地址仅限于上述所列出的地址，从其他非正规渠道下载到的版本或对您造成任何影响均与我们无关。
+
 ## 项目推广
 
 如果你正在寻找一个可以自动管理 Gradle 项目依赖的 Gradle 插件，你可以了解一下 [SweetDependency](https://github.com/HighCapable/SweetDependency) 项目。
