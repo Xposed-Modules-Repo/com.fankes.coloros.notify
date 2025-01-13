@@ -71,4 +71,4 @@ Optimize notification icons for ColorOS and adapt to native notification icon sp
 
 YukiHookAPI 是一个使用 Kotlin 重构的高效 Hook API 构建工具，让你的 Xposed 模块开发变得更加简单。
 
-版权所有 © 2017-2024 Fankes Studio(qzmmcn@163.com)
+版权所有 © 2017 Fankes Studio(qzmmcn@163.com)
