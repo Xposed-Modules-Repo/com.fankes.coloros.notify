@@ -1,4 +1,4 @@
-# ColorOS 通知图标增强
+# ColorOS Notification Icon Enhancer / ColorOS 通知图标增强
 
 [![GitHub license](https://img.shields.io/github/license/fankes/ColorOSNotifyIcon?color=blue&style=flat-square)](https://github.com/fankes/ColorOSNotifyIcon/blob/master/LICENSE)
 [![GitHub CI](https://img.shields.io/github/actions/workflow/status/fankes/ColorOSNotifyIcon/commit_ci.yml?label=CI%20builds&style=flat-square)](https://github.com/fankes/ColorOSNotifyIcon/actions/workflows/commit_ci.yml)
@@ -10,11 +10,105 @@
 [![Telegram Channel](https://img.shields.io/badge/channel-Telegram-blue.svg?logo=telegram&style=flat-square)](https://t.me/XiaofangDaily)
 [![Telegram](https://img.shields.io/badge/discussion-Telegram-blue.svg?logo=telegram&style=flat-square)](https://t.me/XiaofangInternet)
 [![QQ](https://img.shields.io/badge/discussion-QQ-blue.svg?logo=tencent-qq&logoColor=red&style=flat-square)](https://qm.qq.com/cgi-bin/qm/qr?k=dp2h5YhWiga9WWb_Oh7kSHmx01X8I8ii&jump_from=webapi&authKey=Za5CaFP0lk7+Zgsk2KpoBD7sSaYbeXbsDgFjiWelOeH4VSionpxFJ7V0qQBSqvFM)
-[![QQ 频道](https://img.shields.io/badge/discussion-QQ%20频道-blue.svg?logo=tencent-qq&logoColor=red&style=flat-square)](https://pd.qq.com/s/44gcy28h)
+[![QQ Channel](https://img.shields.io/badge/discussion-QQ%20频道-blue.svg?logo=tencent-qq&logoColor=red&style=flat-square)](https://pd.qq.com/s/44gcy28h)
 
 <img src="https://github.com/fankes/ColorOSNotifyIcon/blob/master/img-src/icon.png?raw=true" width = "100" height = "100" alt="LOGO"/>
 
-为 ColorOS 优化通知图标以及适配原生通知图标规范。
+简体中文用户请 [前往这里](#simplified-chinese) 以查看简体中文版自述文件内容。
+
+---
+## English
+
+## Project Migration Notice
+
+Maintaining two modules for both **HyperOS/MIUI** and **ColorOS** at the same time is very inconvenient, so I plan to gradually merge and decouple the
+two
+projects into a new one, with plans to support more systems and devices, such as AOSP and AOSP-like systems.
+
+The new project is [Sumi](https://github.com/fankes/Sumi), which is currently in development. After the new project publishes its official
+release, I will stop maintaining this project and recommend that everyone move to the new project.
+
+Features of this module that are unrelated to notification icons (for example, removing the developer options warning notification and the
+charging complete notification) will not be migrated to the new project.
+
+## Compatibility Notes
+
+- **LSPosed** (scope: "System UI") is recommended
+- It has only been tested on ColorOS 11, 12, 12.1, 13 and 17. If you have problems,
+  please [submit an issue](https://github.com/fankes/ColorOSNotifyIcon/issues)
+- It is recommended to use ColorOS 11 or above
+
+### Compatibility Changes
+
+Because ColorOS 15 changed the system notification icon behavior and forcibly replaces icons with the colored app icon during icon initialization,
+the "System Framework" scope has been added. If this scope is not checked automatically after the module is installed, please check it manually and
+restart the system to fix this breakage. Systems older than ColorOS 15 do not need to check it.
+
+Thanks to [Nep-Timeline](https://github.com/Nep-Timeline) for providing the solution.
+
+## Release Channels
+
+| <img src="https://avatars.githubusercontent.com/in/15368?s=64&v=4" width = "30" height = "30" alt="LOGO"/> | [GitHub CI](https://github.com/fankes/ColorOSNotifyIcon/actions/workflows/commit_ci.yml) | CI automatic builds (beta) |
+|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|----------------------------|
+
+| <img src="https://github.com/peter-iakovlev/Telegram/blob/public/Icon.png?raw=true" width = "30" height = "30" alt="LOGO"/> | [Telegram CI Channel](https://t.me/ColorOSNotifyIcon_CI) | CI automatic builds (beta) |
+|-----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|----------------------------|
+
+| <img src="https://avatars.githubusercontent.com/in/15368?s=64&v=4" width = "30" height = "30" alt="LOGO"/> | [GitHub Releases](https://github.com/fankes/ColorOSNotifyIcon/releases) | Official releases (stable) |
+|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|----------------------------|
+
+| <img src="https://avatars.githubusercontent.com/u/78217009?s=200&v=4?raw=true" width = "30" height = "30" alt="LOGO"/> | [Xposed-Modules-Repo](https://github.com/Xposed-Modules-Repo/com.fankes.coloros.notify/releases) | Official releases (stable) |
+|------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|----------------------------|
+
+The release addresses of this module are limited to those listed above. We are not responsible for any impact caused by versions downloaded from other
+unofficial channels.
+
+### Choose a Module Version by Scenario
+
+The installation packages of this project come in two tracks: **modern** and **legacy**.
+
+- Versions marked **modern** are for Xposed frameworks that support the libxposed API, such as LSPosed
+- Versions marked **legacy** are for Xposed frameworks that support the Xposed Framework API, such as old LSPosed (≤ 1.9.0), EdXposed, etc.
+
+The **modern** version supports automatic hot reload on LSPosed 2.1.0+. After the first installation, later module updates take effect without
+restarting System UI.
+
+## Notes
+
+1. This software is free and developed out of interest, for learning and communication only. If you obtained it from an unofficial channel by paying
+   for it, you may have been defrauded, and you are welcome to report suspicious behavior to us.
+2. This software is licensed under the **GNU Affero General Public License (AGPL 3.0)**. According to the license:
+    1. Any derivative work must use the same AGPLv3 license
+    2. The complete source code must be provided when distributing this software or its modified versions
+    3. The original copyright notice and license information must be retained
+    4. No additional restrictions may be imposed to limit others' free use of this software
+3. We encourage free distribution and improvement under the terms of AGPLv3, but please respect the author's attribution and do not impersonate the
+   original author
+
+## More Projects
+
+<!--suppress HtmlDeprecatedAttribute -->
+<div align="center">
+    <h2>Hey, please stay a moment! 👋</h2>
+    <h3>If you find this project helpful, take a look at my other projects below!</h3>
+    <h3>If these projects help you, consider giving me a follow or a star ⭐️!</h3>
+    <h1><a href="https://github.com/fankes/fankes/blob/main/project-promote/README.md">→ Click here to see more of my projects ←</a></h1>
+</div>
+
+## Built with
+
+This module is built with [YukiHook](https://github.com/HighCapable/YukiHook).
+
+YukiHook is a modern hook API and Xposed module solution that makes developing Xposed modules easier and more reliable.
+
+This module is powered by [KavaRef](https://github.com/HighCapable/KavaRef).
+
+KavaRef is a modern Java reflection library implemented in Kotlin, designed to make your Xposed module development more stable and up-to-date.
+
+Copyright © 2017 Fankes Studio(qzmmcn@163.com)
+
+---
+## Simplified Chinese
 
 ## 项目迁移公告
 
@@ -22,7 +116,7 @@
 
 在新的项目确定后，会在这里添加新项目的链接，届时我会终止维护这个项目并建议大家转移到新项目。
 
-新项目已确定为 [Sumikage](https://github.com/fankes/Sumikage)，目前处于开发阶段，在新项目发布正式版本后，我会终止维护这个项目并建议大家转移到新项目。
+新项目已确定为 [Sumi](https://github.com/fankes/Sumi)，目前处于开发阶段，在新项目发布正式版本后，我会终止维护这个项目并建议大家转移到新项目。
 
 此模块中与通知图标无关的功能 (例如移除开发者选项警告通知、移除充电完成通知) 不会被迁移到新项目。
 
