@@ -33,7 +33,8 @@ charging complete notification) will not be migrated to the new project.
 
 ## Compatibility Notes
 
-- **LSPosed** (scope: "System UI") is recommended
+- **LSPosed** is recommended (scope: "System UI", if you want to adapt the liquid cloud notification icon function on ColorOS 16+, please add "System
+  Messages")
 - It has only been tested on ColorOS 11, 12, 12.1, 13 and 17. If you have problems,
   please [submit an issue](https://github.com/fankes/ColorOSNotifyIcon/issues)
 - It is recommended to use ColorOS 11 or above
@@ -122,7 +123,7 @@ Copyright © 2017 Fankes Studio(qzmmcn@163.com)
 
 ## 适配说明
 
-- 推荐使用 **LSPosed** (作用域 “系统界面”)
+- 推荐使用 **LSPosed** (作用域 “系统界面”，如需在 ColorOS 16+ 适配流体云通知图标功能请添加 “系统消息”)
 - 目前仅在 ColorOS 11、12、12.1、13 和 17 上测试通过，如有问题请 [提交 issues](https://github.com/fankes/ColorOSNotifyIcon/issues)
 - 建议在不低于 ColorOS 11 的版本上使用
 
