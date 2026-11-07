@@ -1,5 +1,4 @@
 # ColorOS Notification Icon Enhancer / ColorOS 通知图标增强
-
 [![GitHub license](https://img.shields.io/github/license/fankes/ColorOSNotifyIcon?color=blue&style=flat-square)](https://github.com/fankes/ColorOSNotifyIcon/blob/master/LICENSE)
 [![GitHub CI](https://img.shields.io/github/actions/workflow/status/fankes/ColorOSNotifyIcon/commit_ci.yml?label=CI%20builds&style=flat-square)](https://github.com/fankes/ColorOSNotifyIcon/actions/workflows/commit_ci.yml)
 [![GitHub release](https://img.shields.io/github/v/release/fankes/ColorOSNotifyIcon?display_name=release&logo=github&color=green&style=flat-square)](https://github.com/fankes/ColorOSNotifyIcon/releases)
