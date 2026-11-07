@@ -1,4 +1,5 @@
 # ColorOS Notification Icon Enhancer / ColorOS 通知图标增强
+
 [![GitHub license](https://img.shields.io/github/license/fankes/ColorOSNotifyIcon?color=blue&style=flat-square)](https://github.com/fankes/ColorOSNotifyIcon/blob/master/LICENSE)
 [![GitHub CI](https://img.shields.io/github/actions/workflow/status/fankes/ColorOSNotifyIcon/commit_ci.yml?label=CI%20builds&style=flat-square)](https://github.com/fankes/ColorOSNotifyIcon/actions/workflows/commit_ci.yml)
 [![GitHub release](https://img.shields.io/github/v/release/fankes/ColorOSNotifyIcon?display_name=release&logo=github&color=green&style=flat-square)](https://github.com/fankes/ColorOSNotifyIcon/releases)
@@ -32,7 +33,7 @@ charging complete notification) will not be migrated to the new project.
 
 ## Compatibility Notes
 
-- **LSPosed** is recommended (scope: "System UI", if you want to adapt the liquid cloud notification icon function on ColorOS 16+, please add "System
+- **LSPosed** is recommended (scope: "System UI", if you want to adapt the Fluid Cloud notification icon function on ColorOS 16+, please add "System
   Messages")
 - It has only been tested on ColorOS 11, 12, 12.1, 13 and 17. If you have problems,
   please [submit an issue](https://github.com/fankes/ColorOSNotifyIcon/issues)
